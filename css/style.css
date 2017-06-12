@@ -107,9 +107,10 @@ h2 {
   background-color: #f0efef;
   height: 300px;
   width: 100vw;
-  margin-left: -60px;
   padding-top: 50px;
   padding-left: 60px;
+  margin-left: -60px;
+  display: block;
 }
 
 .benefits h3 {
@@ -141,12 +142,66 @@ p {
 .testimonial {
   height: 394px;
   background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  margin-left: -60px;
   background-size: cover;
-  width: 100%;
+  width: 100vw;
+}
+
+blockquote {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  padding: 100px 250px;
+}
+
+span {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.stripe {
+  height: 80px;
+  background-color: #f9e42e;
+  display: block;
+  width: 100vw;
+  margin-left: -60px;
+}
+
+.button .sign-up {
+  text-align: center;
+  margin: auto;
+}
+
+footer h1 {
+  padding-top: 40px;
 }
 
 footer {
+  text-align: center;
+  background-color: #121212;
+  height: 250px;
+  margin: 0;
+  width: 100vw;
+  margin-left: -60px;
+}
 
+footer ul {
+  margin-top: 20px;
+}
+
+footer li {
+  display: inline-block;
+}
+
+li a img {
+  height: 20px;
+  margin: 10px;
 }
 
 footer h1 {
