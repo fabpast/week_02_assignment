@@ -86,7 +86,8 @@ h2 {
   font-size: 24px;
   color: #FFF;
   text-align: center;
-  margin-top: 130px;
+  padding-top: 130px;
+  padding-bottom: 50px;
 }
 
 .button {
@@ -101,15 +102,12 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   display:block;
-  margin-top: 50px;
   width: 180px;
 }
 
 .benefits {
   background-color: #f0efef;
-  height: 300px;
   width: 100%;
-  padding-top: 50px;
   padding-left: 60px;
   display: block;
 }
@@ -118,11 +116,12 @@ h2 {
   font-weight: 600;
   font-size: 20px;
   color: #033048;
+  padding-top: 70px;
 }
 
 p {
   margin-top: 10px;
-  margin-right: 200px;
+  margin-right: 300px;
   font-weight: 300;
   font-size: 13px;
   color: #606161;
@@ -131,6 +130,7 @@ p {
 .benefits ul {
   margin-top: 20px;
   font-size: 13px;
+  padding-bottom: 70px;
 }
 
 .benefits li {
@@ -141,7 +141,6 @@ p {
 }
 
 .testimonial {
-  height: 394px;
   background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
   width: 100%;
@@ -162,21 +161,21 @@ section span {
   font-weight: 600;
   color: #FFF;
   display: block;
+  padding-bottom: 140px;
 }
 
 .stripe {
-  height: 80px;
   background-color: #f9e42e;
   display: block;
   width: 100%;
-  padding-top: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .button.sign-up {
   background-color: #033048;
   color: #FFF;
   display: block;
-  margin: auto;
 }
 
 footer h1 {
