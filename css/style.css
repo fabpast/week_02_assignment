@@ -86,11 +86,11 @@ h2 {
   font-size: 24px;
   color: #FFF;
   text-align: center;
-  margin-top: 150px;
+  margin-top: 130px;
 }
 
 .button {
-  font-weight: 600;
+  font-weight: 800;
   font-size: 14px;
   text-decoration: none;
   color: #121212;
@@ -169,10 +169,10 @@ section span {
   background-color: #f9e42e;
   display: block;
   width: 100%;
-  padding-top: 24px;
+  padding-top: 25px;
 }
 
-a.button.sign-up {
+.button.sign-up {
   background-color: #033048;
   color: #FFF;
   display: block;
