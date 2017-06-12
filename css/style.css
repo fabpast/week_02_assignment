@@ -100,7 +100,9 @@ h2 {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  display:block;
   margin-top: 50px;
+  width: 180px;
 }
 
 .benefits {
@@ -153,16 +155,15 @@ blockquote {
   font-size: 18px;
   font-weight: 300;
   font-style: italic;
-  padding: 100px 250px;
+  padding: 120px 250px 10px 250px;
 }
 
-span {
-  color: #FFF;
+section span {
   text-align: center;
   font-size: 18px;
   font-weight: 600;
-  padding-left: auto;
-  padding-right: auto;
+  color: #FFF;
+  display: block;
 }
 
 .stripe {
@@ -173,8 +174,10 @@ span {
   margin-left: -60px;
 }
 
-.button .sign-up {
-  text-align: center;
+a.button.sign-up {
+  background-color: #033048;
+  color: #FFF;
+  display: block;
   margin: auto;
 }
 
@@ -209,6 +212,14 @@ footer h1 {
   font-size: 24px;
   text-align: center;
   color: #f9e42e;
+}
+
+footer span {
+  font-size: 9px;
+  color: #FFF;
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
 }
 
 /******************************************
