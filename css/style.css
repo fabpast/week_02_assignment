@@ -52,7 +52,6 @@ body {
      font-family: 'Open Sans', sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
      background-size: cover;
-     padding: 20px 60px;
      margin:0;
 }
 
@@ -79,6 +78,7 @@ header h1 {
   font-size: 24px;
   text-align: left;
   color: #FFF;
+  padding: 20px 60px;
 }
 
 h2 {
@@ -108,10 +108,9 @@ h2 {
 .benefits {
   background-color: #f0efef;
   height: 300px;
-  width: 100vw;
+  width: 100%;
   padding-top: 50px;
   padding-left: 60px;
-  margin-left: -60px;
   display: block;
 }
 
@@ -144,9 +143,8 @@ p {
 .testimonial {
   height: 394px;
   background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
-  margin-left: -60px;
   background-size: cover;
-  width: 100vw;
+  width: 100%;
 }
 
 blockquote {
@@ -170,8 +168,7 @@ section span {
   height: 80px;
   background-color: #f9e42e;
   display: block;
-  width: 100vw;
-  margin-left: -60px;
+  width: 100%;
 }
 
 a.button.sign-up {
@@ -190,8 +187,7 @@ footer {
   background-color: #121212;
   height: 250px;
   margin: 0;
-  width: 100vw;
-  margin-left: -60px;
+  width: 100%;
 }
 
 footer ul {
