@@ -169,6 +169,7 @@ section span {
   background-color: #f9e42e;
   display: block;
   width: 100%;
+  padding-top: 24px;
 }
 
 a.button.sign-up {
