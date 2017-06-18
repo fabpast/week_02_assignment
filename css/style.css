@@ -334,6 +334,36 @@ h3 {
   font-weight: 600;
   color: #033048;
 }
+
+.main p {
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+.main span {
+  display: block;
+  text-align: right;
+  margin-top: 40px;
+}
+
+.main a {
+  font-size: 24px;
+  font-weight: 600;
+  color: #033048;
+  text-decoration: none;
+}
+
+.post_1 {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #033048;
+  margin-bottom: 50px;
+}
+
+.post_2 {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #033048;
+  margin-bottom: 100px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
