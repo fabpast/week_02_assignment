@@ -56,6 +56,7 @@ body {
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
+  background-color: #f0efef;
 }
 
 
@@ -258,6 +259,7 @@ footer span {
   float: left;
   width: 24%;
   margin-top: 30px;
+  padding-left: 20px;
 }
 
 .clear {
@@ -281,18 +283,15 @@ footer span {
   margin-bottom: 20px;
 }
 
-img {
+.main img {
   width: 100%;
   height: auto;
 }
 
-.side {
-  padding-left: 20px;
-}
-
-.categories h3 {
+h3 {
   font-size: 32px;
   font-weight: 800;
+  color: #033048;
 }
 
 .categories a {
@@ -304,6 +303,36 @@ img {
 
 .categories ul {
   list-style-type: none;
+}
+
+.about_relaxr {
+  margin-top: 30px;
+}
+
+.about_relaxr p {
+  font-size: 22px;
+}
+
+.about_relaxr a {
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #033048;
+}
+
+.ad {
+  width: 240px;
+  height: 400px;
+  background-color: #FFF;
+  margin-top: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.ad span{
+  font-size: 32px;
+  font-weight: 600;
+  color: #033048;
 }
 /******************************************
 /* ADDITIONAL STYLES
