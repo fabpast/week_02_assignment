@@ -55,7 +55,7 @@ body {
   font-size: 12px;
   line-height: 1.4;
   font-family: 'Open Sans', sans-serif;
-  margin:0;
+  margin: 0 auto;
 }
 
 
@@ -71,7 +71,7 @@ body {
 
 }
 
-header {
+.home {
   text-align: center;
   height: 500px;
 }
@@ -84,13 +84,14 @@ header h1 {
   padding: 20px 60px;
 }
 
-h2 {
+.home h2 {
   font-weight: 600;
   font-size: 24px;
   color: #FFF;
   text-align: center;
-  padding-top: 130px;
-  padding-bottom: 50px;
+  padding: 0;
+  margin-top: 130px;
+  margin-bottom: 50px;
 }
 
 .button {
@@ -123,12 +124,16 @@ h2 {
 }
 
 p {
-  margin-top: 10px;
-  margin-right: 300px;
   font-weight: 300;
   font-size: 13px;
   color: #606161;
 }
+
+.benefits p {
+  margin-top: 10px;
+  margin-right: 300px;
+}
+
 
 .benefits ul {
   margin-top: 20px;
@@ -158,7 +163,7 @@ blockquote {
   padding: 140px 250px 10px 250px;
 }
 
-section span {
+.testimonial span {
   text-align: center;
   font-size: 18px;
   font-weight: 600;
@@ -236,7 +241,7 @@ footer span {
 
 .primary_nav a {
   text-decoration: none;
-  color: #FFF;
+  color: #f9e42e;
 }
 
 .primary_nav h1 {
@@ -246,13 +251,13 @@ footer span {
 .main {
   float: left;
   width: 70%;
-  display: inline-block;
+  padding-left: 60px;
 }
 
 .side {
   float: left;
-  width: 30%;
-  display: inline-block;
+  width: 24%;
+  margin-top: 30px;
 }
 
 .clear {
@@ -265,6 +270,40 @@ footer span {
 
 .main_container {
   width: 100%;
+}
+
+.main h2 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #033048;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.side {
+  padding-left: 20px;
+}
+
+.categories h3 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.categories a {
+  font-size: 24px;
+  font-weight: 300;
+  color: #033048;
+  text-decoration: none;
+}
+
+.categories ul {
+  list-style-type: none;
 }
 /******************************************
 /* ADDITIONAL STYLES
